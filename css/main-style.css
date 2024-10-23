@@ -1,0 +1,53 @@
+/* ==================== */
+/* = Variable Section = */
+/* ====================*/
+:root {
+}
+
+/* ================ */
+/* = Global Rules = */
+/* ================ */
+@font-face {
+  font-family: "opensans";
+  src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "opensans";
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* =========Responsive========== */
+.container {
+  margin: auto;
+  padding: 0 15px;
+}
+/* Small Screen */
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+/* Medium Screen */
+
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+/* Larg Screen */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+/* ========component=========== */
+
+/* ================ */
+/* = Site Section = */
+/* ================ */
+/* ====== Start header ========= */
